@@ -1,6 +1,7 @@
 import { createBrowserRouter} from "react-router-dom"
-import App from "../App"
+
 import Blogpost from "../pages/Blog/Blogpost"
+import Landing from "../pages/Landing/Landing"
 
 
 
@@ -10,8 +11,13 @@ const Index = createBrowserRouter([
 
     {
         path: "/",
-        index:true,
-        element: <App />,
+        element: "",
+        children: [
+            {
+                index: true,
+                element: <Landing />
+            }
+        ]
     
     
         
