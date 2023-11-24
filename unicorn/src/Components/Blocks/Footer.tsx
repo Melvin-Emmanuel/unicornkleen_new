@@ -7,7 +7,7 @@ import {BiLogoGmail} from "react-icons/bi"
 const Footer:React.FC = () => {
   return (
     <div className=' flex  justify-between  bg-[#1239AC]  p-[50px] gap-[10px]
-    md:flex md:flex-col md:h-[500px] 
+    sm:flex sm:flex-col md:h-[500px] 
 
     '>
          <div className=' w-[30%]'>

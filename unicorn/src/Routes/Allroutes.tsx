@@ -16,16 +16,17 @@ const Index = createBrowserRouter([
             {
                 index: true,
                 element: <Landing />
+            },
+            {
+                path: "/Blog",
+                element:<Blogpost/>
             }
         ]
     
     
         
     },
-    {
-        path: "/Blog",
-        element:<Blogpost/>
-    }
+    
   
 ])
 

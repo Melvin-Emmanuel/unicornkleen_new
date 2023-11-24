@@ -6,8 +6,8 @@ import Bubble from "../../assets/assets/bubble-light.png"
 
 const Card3 = () => {
   return (
-    <div className='relative bg-right-bottom bg-no-repeat items-center bg-auto p-10   h-[650px] flex justify-between w-[100%] 
-    sm:flex sm:flex-col sm:h-[500px] sm:p-2
+    <div className=' bg-right-bottom bg-no-repeat items-center bg-auto p-10   h-[650px] flex justify-between w-[100%] 
+    sm:flex sm:flex-col  sm:p-5 sm:pt-10 sm:pb-20  sm:bg-hidden  sm:gap-5 sm:h-[950px]
      md:flex md:flex-col md:p-2 md:h-[720px] md:bg-cover
     '
     style={{backgroundImage: `url(${Back})`}}
@@ -16,7 +16,7 @@ const Card3 = () => {
 
     >
     <div className='ml-10 h-[350px]  
-   sm:ml-0 sm:flex sm:items-center sm:h-[450px] sm:w-[100%] 
+   sm:hidden
    md:h-[450px] md:flex md:items-center md:w-[100%] md:ml-0 lg:hidden xl:hidden 2xl:hidden
    lg:w-[100%]
     '>
@@ -27,24 +27,26 @@ const Card3 = () => {
     
     </div>
     
-    <div className=' text-[white] h-[350px] ml-5 w-[45%]  text-left
-    sm:ml-0 sm:p-2 sm:w-[100%]  sm:text-center sm:flex sm:flex-col
+    <div className=' text-[white] h-[350px] ml-5 w-[45%]  text-left gap-5
+    sm:ml-0 sm:p-1 sm:w-[100%]  sm:text-center sm:flex sm:flex-col 
     md:ml-0  md:items-center md:flex md:flex-col
     lg:w-[45%]
     '>
-      <p className="">ONE TIME / RECURRING</p>
+      <p className="sm:text-left">ONE TIME / RECURRING</p>
       <h3 className='text-[white] text-[30px] text-left font-semibold
-        sm:leading-9 
+        sm:leading-9 sm:text-[35px] sm:font-bold
       '> Commercial Cleaning</h3>
       
-        <p className=' text-left sm:leading-6 sm:text-[12px] md:text-[12px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, quasi. Maiores.
+        <p className=' text-left sm:leading-6 sm:text-[16px] md:text-[12px]'>Lorem ipsum dolor, sit amet consectetur adipising elit point
         </p>
-        <br />
-        <div className="flex justify-between items-center h-[150px] w-[400px] ">
-          <div className="flex flex-col gap-3">
+       
+        <div className="flex justify-between items-center h-[150px] w-[400px]
+        sm:flex sm:flex-col sm:text-left sm:items-start sm:text-[18px]
+        ">
+          <div className="flex flex-col gap-3 sm:gap-2">
             <div className="text-[yellow] flex items-center gap-3">
             <GiCheckMark />
-            <p className="text-[white]">Ofice</p>
+            <p className="text-[white]"> Ofice</p>
             </div>
             <div className="text-[yellow] flex items-center gap-3">
             <GiCheckMark />
@@ -60,7 +62,7 @@ const Card3 = () => {
             </div>
             
           </div>
-          <div className="m-5 flex flex-col gap-3">
+          <div className="m-5 flex flex-col gap-3 sm:ml-0 sm:gap-2 sm:m-2">
             <div className="text-[yellow] flex items-center gap-3">
             <GiCheckMark />
             <p className="text-[white]">Shop</p>
@@ -82,13 +84,31 @@ const Card3 = () => {
 
         </div>
         <br />
+        
 
-        <button className='text-[white] transition ease-in duration-700 flex justify-center  items-center text-center rounded-[7px] h-[55px] w-[170px] bg-[#06278a] sm:none'>Free Estimate</button>
+        <button className='text-[white] transition ease-in duration-700 flex justify-center  items-center text-center rounded-[7px] h-[55px] w-[170px] bg-[#06278a]  sm:hidden'>Free Estimate</button>
        
        
       
        
       
+    </div >
+    
+
+    <div className=' 
+   sm:ml-0 sm:flex sm:items-left sm:h-[300px] sm:w-[100%]  sm:flex-col sm:gap-5 
+   md:h-[450px] md:flex md:items-center md:w-[100%] md:ml-0 lg:hidden xl:hidden 2xl:hidden
+   lg:w-[100%]
+    '>
+      <button className='text-[white] transition ease-in duration-700 flex justify-center  items-center text-center rounded-[7px] h-[55px] w-[170px] bg-[#06278a] 
+     sm:h-[80px] md:hidden lg:hidden 2xl:hidden
+    '>Free Estimate</button>
+
+      <img
+          className='h-[100%] w-[100%] object-cover rounded-[5px]'
+        src={Clearner}
+     />
+    
     </div>
 
     <div className='relative h-[430px] w-[44%]  ml-10 sm:hidden md:hidden
@@ -102,12 +122,9 @@ const Card3 = () => {
     <br className='sm:hidden lg:hidden'/>
 
 
-    <div className="absolute h-[100px] w-[250px] scale-75 translate-x-4 skew-y-3 bg-[blue] right-8 top-3
-    ">
+    
 
-    </div>
-
-    <div className="absolute top-3 left-3 " >
+    <div className="absolute top-3 left-3 sm:hidden" >
       <img src={Bubble} alt="" />
 
     </div>

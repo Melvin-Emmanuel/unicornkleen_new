@@ -80,122 +80,141 @@ import svg from "../../assets/assets/images/images__4_-removebg-preview.png"
 
 const Services:React.FC = () => {
   return (
-    <div>
-      <div className=' text-[#666666] bg-[white] flex flex-col gap-[20px] items-center p-[50px] '>
+    <div className=''>
+      <div className=' text-[#666666] bg-[white] flex flex-col gap-[30px] items-center p-[50px] 
+      sm:p-5 sm:min-h-[90vh]
+       '>
         <br />
+       <br />
+        
+
+        <p  className='text-[blue] text-[25px] sm:text-[20px] sm:font-semibold'>WHAT WE DO</p>
+        <h3 className='text-[35px] text-[black] text-center leading-10 font-bold sm:text-[30px]'>Our Most Popular <br className='sm:hidden' /> Cleaning Service for you</h3>
+        <p className='text-center'>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi numquam, nulla sint delectus, soluta totam similique eum  <br /> autem dolor dolore maxime culpa quo magnam incidunt.  Porro officiis aperiam laborum? Repellendus?
+        </p>
         <br />
 
-      <p  className='text-[blue] text-[25px]'>WHAT WE DO</p>
-      <h3 className='text-[35px] text-[black] text-center leading-10 font-bold'>Our Most Popular <br /> Cleaning Service for you</h3>
-      <p className='text-center'>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi numquam, nulla sint delectus, soluta totam similique eum  <br /> autem dolor dolore maxime culpa quo magnam incidunt.  Porro officiis aperiam laborum? Repellendus?
-      </p>
-      <br />
+        <div className='flex justify-between gap-[20px] items-center  w-full border bg[white] border-none
+        sm:flex sm:flex-col sm:h-[990px]
+        '>
+          <div className=' rounded-md p-7 gap-5 shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]
+          sm:w-[280px] sm:items-center sm:h-[320px]
+          '>
+            
+            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            
+            
+            
+          <p className='text-[14px] '>
+                    A clean and hygieic offices is a more productive 
+                    place for your staff to work and a more pleasant 
+                    place for your for your client to visit. We provide 
+                    hight quality,cost effective office cleaning solution 
+                    and currently work with a number <br /> of companies across lagos
+            </p>
+          </div>
 
-      <div className='flex justify-between gap-[20px] items-center h-[350px] w-full border bg-[white] border-none'>
-        <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
+          <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]
+           sm:w-[280px]  sm:items-center  sm:h-[320px]
+          '>
+            
+            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            <br />
+            
+            
+          <p className='text-[14px] '>
+                    A clean and hygieic offices is a more productive 
+                    place for your staff to work and a more pleasant 
+                    place for your for your client to visit. We provide 
+                    hight quality,cost effective office cleaning solution 
+                    and currently work with a number <br /> of companies across lagos
+            </p>
+          </div>
+
+          <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]
+           sm:w-[280px]  sm:items-center  sm:h-[320px]
+          '>
+            
+            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            <br />
+            
+            
+          <p className='text-[14px] '>
+                    A clean and hygieic offices is a more productive 
+                    place for your staff to work and a more pleasant 
+                    place for your for your client to visit. We provide 
+                    hight quality,cost effective office cleaning solution 
+                    and currently work with a number <br /> of companies across lagos
+            </p>
+          </div>
           
-          <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
-          <br />
+
           
           
-         <p className='text-[14px] '>
-                  A clean and hygieic offices is a more productive 
-                  place for your staff to work and a more pleasant 
-                  place for your for your client to visit. We provide 
-                  hight quality,cost effective office cleaning solution 
-                  and currently work with a number <br /> of companies across lagos
-          </p>
         </div>
 
-        <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
+        <div className='flex justify-between gap-[20px] items-center h-[350px] w-full border bg-[white] border-none
+        sm:flex sm:flex-col sm:h-[990px]
+        '>
+          <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]
+          sm:w-[280px]  sm:items-center  sm:h-[320px]
+          '>
+            
+            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            <br />
+            
+            
+          <p className='text-[14px] '>
+                    A clean and hygieic offices is a more productive 
+                    place for your staff to work and a more pleasant 
+                    place for your for your client to visit. We provide 
+                    hight quality,cost effective office cleaning solution 
+                    and currently work with a number <br /> of companies across lagos
+            </p>
+          </div>
+
+          <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]
+          sm:w-[280px]  sm:items-center  sm:h-[320px]
+          '>
+            
+            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            <br />
+            
+            
+          <p className='text-[14px] '>
+                    A clean and hygieic offices is a more productive 
+                    place for your staff to work and a more pleasant 
+                    place for your for your client to visit. We provide 
+                    hight quality,cost effective office cleaning solution 
+                    and currently work with a number <br /> of companies across lagos
+            </p>
+          </div>
+
+          <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]
+          sm:w-[280px]  sm:items-center  sm:h-[320px]
+          '>
+            
+            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            <br />
+            
+            
+          <p className='text-[14px] '>
+                    A clean and hygieic offices is a more productive 
+                    place for your staff to work and a more pleasant 
+                    place for your for your client to visit. We provide 
+                    hight quality,cost effective office cleaning solution 
+                    and currently work with a number <br /> of companies across lagos
+            </p>
+          </div>
           
-          <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
-          <br />
+
           
           
-         <p className='text-[14px] '>
-                  A clean and hygieic offices is a more productive 
-                  place for your staff to work and a more pleasant 
-                  place for your for your client to visit. We provide 
-                  hight quality,cost effective office cleaning solution 
-                  and currently work with a number <br /> of companies across lagos
-          </p>
         </div>
-
-        <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
-          
-          <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
-          <br />
-          
-          
-         <p className='text-[14px] '>
-                  A clean and hygieic offices is a more productive 
-                  place for your staff to work and a more pleasant 
-                  place for your for your client to visit. We provide 
-                  hight quality,cost effective office cleaning solution 
-                  and currently work with a number <br /> of companies across lagos
-          </p>
-        </div>
-        
-
-        
-        
-      </div>
-
-      <div className='flex justify-between gap-[20px] items-center h-[350px] w-full border bg-[white] border-none'>
-        <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
-          
-          <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
-          <br />
-          
-          
-         <p className='text-[14px] '>
-                  A clean and hygieic offices is a more productive 
-                  place for your staff to work and a more pleasant 
-                  place for your for your client to visit. We provide 
-                  hight quality,cost effective office cleaning solution 
-                  and currently work with a number <br /> of companies across lagos
-          </p>
-        </div>
-
-        <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
-          
-          <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
-          <br />
-          
-          
-         <p className='text-[14px] '>
-                  A clean and hygieic offices is a more productive 
-                  place for your staff to work and a more pleasant 
-                  place for your for your client to visit. We provide 
-                  hight quality,cost effective office cleaning solution 
-                  and currently work with a number <br /> of companies across lagos
-          </p>
-        </div>
-
-        <div className=' rounded-md p-7  shadow-lg flex flex-col h-[300px] bg-[white] w-[370px]'>
-          
-          <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
-          <br />
-          
-          
-         <p className='text-[14px] '>
-                  A clean and hygieic offices is a more productive 
-                  place for your staff to work and a more pleasant 
-                  place for your for your client to visit. We provide 
-                  hight quality,cost effective office cleaning solution 
-                  and currently work with a number <br /> of companies across lagos
-          </p>
-        </div>
-        
-
-        
-        
-      </div>
       
-    <br />
-    <br />
+       <br />
+        <br />
       </div>
       
     </div>
