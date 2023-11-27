@@ -26,12 +26,12 @@ const Header:React.FC = () => {
        
       </nav>
 
-      <div className='h-[30px]  md:text-[#1239AC] md:h-[30px] md:m-5 md:text-[28px] xl:hidden lg:hidden sm:h-[30px]  sm:text-[28px] sm:text-[#1239AC]'>
+      <div className='  md:text-[#1239AC] md:h-[30px] md:m-5 md:text-[28px] xl:hidden lg:hidden 2xl:hidden sm:h-[30px]  sm:text-[28px] sm:text-[#1239AC]'>
         <GiHamburgerMenu />
       </div>
 
 <div className='flex justify-between gap-5 items-center '>
-  <Link to="signin">
+  <Link to="login">
   <button className='text-[white] p-[5px] flex flex-col items-center text-center rounded-[7px] h-[40px] w-[100px] bg-[#1239AC] md:hidden sm:hidden'>Login</button>
 
   </Link>

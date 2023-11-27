@@ -7,13 +7,13 @@ import Window from "../../assets/assets/images/side-view-adult.jpg"
 const Works:React.FC = () => {
   return (
     <div className=' text-center bg-[white] items-center pt-[100px] pb-[100px]
-    sm:h-[750px] sm:p-2
+    sm:h-[950px] sm:p-2 sm:pt-[50px] sm:justify-center sm:items-center
     md:h-[850px] md:p-2
     '>
         {/* <br className='sm:hidden' />
         <br  className='sm:hidden'/>
         <br /> */}
-        <p  className='text-[#1239AC] font-bold text-[20px]'>WORK PROCESS</p>
+        <p  className='text-[#1239AC] font-bold text-[20px] sm:text-[25px] sm:font-semibold'>WORK PROCESS</p>
         <br />
         <h3 className='text-[#1D2746] font-bold text-[30px]'>
             How it Works
@@ -21,7 +21,7 @@ const Works:React.FC = () => {
         <br />
         <br />
         <div className='flex justify-around items-center
-        sm:flex sm:flex-col  md:flex md:flex-col 
+        sm:flex sm:flex-col  md:flex md:flex-col sm:items-center
         '>
         
              <div>
@@ -36,7 +36,7 @@ const Works:React.FC = () => {
                     </div>
                     <br className='sm:hidden' />
 
-                    <p className='text-[#495057]'>Book Online Form</p>
+                    <p className='text-[#495057] sm:font-semibold'>Book Online Form</p>
              </div>
                   <br className='lg:hidden xl:hidden 2xl:hidden' />
             
@@ -51,8 +51,8 @@ const Works:React.FC = () => {
                     >
                     
                     </div>
-                    <br className='sm:hidden' />
-                    <p className='text-[#495057]' >Get Expert Cleaners</p>
+                    <br className='sm:hidden ' />
+                    <p className='text-[#495057]  sm:font-semibold' >Get Expert Cleaners</p>
                 </div>
                 <br className='lg:hidden xl:hidden 2xl:hidden' />
                 <div>
@@ -67,7 +67,7 @@ const Works:React.FC = () => {
 
                     </div> 
                     <br className='sm:hidden md:hidden'/>
-                    <p className='text-[#495057]' >Relax & Enjoy Cleaning</p>
+                    <p className='text-[#495057]  sm:font-semibold' >Relax & Enjoy Cleaning</p>
 
                 </div>
                 

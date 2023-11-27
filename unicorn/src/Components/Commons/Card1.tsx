@@ -3,17 +3,17 @@ import Smiling from "../../assets/assets/images/smiling.png"
 
 const Card1 = () => {
   return (
-    <div className='bg-[red] bg-right bg-contain bg-no-repeat h-[600px] flex  flex-col
+    <div className=' bg-right bg-contain bg-no-repeat pl-[50px] h-[600px] flex  flex-col
      sm:ml-[0px] sm:h-[300px] sm:p-4 sm:flex sm:flex-row sm:gap-5 sm:bg-cover sm:bg-center '
       style={{backgroundImage: `url(${Smiling})`}}                                           
       
      
      >
       <div className="mt-[150px]
-      sm:mt-0 sm:flex sm:flex-col sm:pt-6  sm:gap-5 sm:items-center sm:text-center ">
-      <h3 className='text-[white] text-[25px]     sm:text-[23px]  '> BEST CLEANING SERVICE</h3>
+      sm:mt-0 sm:flex sm:flex-col sm:pt-6 sm:pl-10 sm:gap-5 sm:items-center sm:text-center ">
+      <h3 className='text-[white] text-[30px]     sm:text-[23px]  '> BEST CLEANING SERVICE</h3>
       
-      <h2 className='text-[rgb(255,255,255)]   text-[55px] font-bold
+      <h2 className='text-[rgb(255,255,255)]   text-[50px] font-bold
        sm:text-[30px] sm:leading-9 sm:font-semibold '> Amazing quality  cleaning <br className=" sm:hidden p-none m-[none]" /> service  agency</h2>
       <br className= "sm:hidden" />
       <br className="sm:hidden" />

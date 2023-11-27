@@ -4,7 +4,7 @@ import Abso from "../../assets/assets/images/mirror .jpg"
 
 const Card2 = () => {
   return (
-    <div className='relative   h-[650px] bg-[green] flex items-center 
+    <div className='relative   h-[650px] bg-[white] flex items-center 
      sm:flex sm:flex-col sm:p-2 sm:min-h-[90vh]
      
      '>
@@ -27,7 +27,7 @@ const Card2 = () => {
          md:leading-10 md:text-[40px] md:font-bold md:text-center'> We are committed to give <br className="sm:hidden md:hidden" /> our best service</h3>
         <br  />
         
-        {/*<div className='h-[100px] w-[650px] flex text-left items-center border-l-[blue] shadow-lg border-r-0 border-t-0 border-b-0  border-4 sm:hidden md:hidden lg:h-[80px] lg:w-[470px]'>
+        <div className='h-[100px] w-[650px] flex text-left items-center border-l-[blue] shadow-lg border-r-0 border-t-0 border-b-0  border-4 sm:hidden md:hidden lg:h-[80px] lg:w-[470px]'>
           <p className='p-7 text-left sm:p-1 sm:text-[15px] md:text-center'>Local operation team on call 24 hours a day, available to
               work at a moment’s notice
           </p>
@@ -38,7 +38,7 @@ const Card2 = () => {
            mistress provided out  horrible opinions. Prevailed mr tolerably discourse assurance
            estimable applauded ro so.  Him everything melancholy uncommonly but solicitude
            inhabiting projection
-        </p> */}
+        </p> 
         
         
         <div className="h-[100px] w-[650px lg:w-[400px]
@@ -72,7 +72,7 @@ const Card2 = () => {
       <br />
 
       <div className=" absolute left-28  flex items-center flex-col  bottom-14">
-        <h3 className=" sm:hidden  text-[90px] font-bold text-[#06278a]">55</h3>
+        <h3 className=" sm:hidden  text-[90px] font-bold text-[#06278a]">5</h3>
         <p className="sm:hidden font-semibold  m-0 p-0  text-[#4a4949]">Years Experiences </p>
       </div>
       <div className='absolute right-[780px] bottom-20  h-[250px] w-[250px] text-[#FFB400] border-8 rounded-full sm:hidden md:h-[450px] md:flex md:items-center md:w-[100%] md:ml-[0]
