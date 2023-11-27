@@ -23,7 +23,7 @@ const About :React.FC= () => {
                 </div>
                 <div className='flex items-center  justify-center gap-2 sm:flex-wrap sm:flex-col md:flex-wrap md:flex-col'>
                 {/* <AiOutlineHome  */}
-                 color='white'/>
+                 {/* color='white'/> */}
                     <h4 className='text-white sm:text-[10px] md:text-[13px]'>HOME-ABOUT</h4>
                 </div>
             </div>
@@ -73,7 +73,7 @@ const About :React.FC= () => {
                 <div className='flex sm:flex sm:justify-center sm:items-center md:flex md:justify-center md:items-center'>
                     <h2 className='text-white font-bold text-[30px] sm:text-[15px]'>152</h2>
                     <span>
-                    <AiOutlinePlus  color='#DB683A' />  
+                    {/* <AiOutlinePlus  color='#DB683A' />   */}
                     </span>
                 </div>
                 <div>
@@ -85,7 +85,7 @@ const About :React.FC= () => {
                 <div className='flex  sm:flex sm:justify-center sm:items-center md:flex md:justify-center  md:items-center'>
                     <h2 className='text-white font-bold text-[30px] sm:text-[15px]'>5</h2>
                     <span>
-                    <AiOutlinePlus  color='#DB683A' />  
+                    {/* <AiOutlinePlus  color='#DB683A' />   */}
                     </span>
                 </div>
                 <div>
