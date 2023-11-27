@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
  import pic from "../../assets/Cleaning tools.jpg"
 import { useNavigate } from 'react-router-dom';
- import {loginUser} from  "../Utils/ApiCalls"
+ import {loginUser} from  "../../Components/Utils/ApiCalls"
 import { Link } from 'react-router-dom';
 
 const Login :React.FC= () => {

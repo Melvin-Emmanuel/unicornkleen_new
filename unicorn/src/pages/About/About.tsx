@@ -12,7 +12,7 @@ import pics from "../../assets/afro-woman-holding-bucket-with-cleaning-items_584
  import { Link } from 'react-router-dom'
  
 
-const About = () => {
+const About :React.FC= () => {
   return (
     <div>
         <div className='w-full min-h-[70vh] bg-no-repeat bg-[#1239ac] bg-cover py-25 bg-blend-exclusion sm:w-[100%] sm:mx-auto md:w-[100%] ' style={{backgroundImage: `url(${pic})`}}>
