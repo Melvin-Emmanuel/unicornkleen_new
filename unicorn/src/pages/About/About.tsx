@@ -1,6 +1,6 @@
 import React from 'react'
 import pic from "../../assets/full-shot-man-servant-vacuuming-floor.jpg"
-import {AiOutlineHome, AiOutlinePlus} from "react-icons/ai"
+// import {AiOutlineHome, AiOutlinePlus} from "react-icons/ai"
 import pics from "../../assets/afro-woman-holding-bucket-with-cleaning-items_58466-11246.jpg"
  import pic1 from "../../assets/cheerful-dark-skinned-housewife-holds-chemical-detergent-mop-looks-gladfully.jpg"
  import pic2 from "../../assets/afro-woman-holding-bucket-with-cleaning-items_58466-11246.jpg"
@@ -22,7 +22,7 @@ const About :React.FC= () => {
                     <h1 className='text-white text-[30px] font-bold sm:text-[18px] md:text-[18px]'>About Us</h1>
                 </div>
                 <div className='flex items-center  justify-center gap-2 sm:flex-wrap sm:flex-col md:flex-wrap md:flex-col'>
-                <AiOutlineHome 
+                {/* <AiOutlineHome  */}
                  color='white'/>
                     <h4 className='text-white sm:text-[10px] md:text-[13px]'>HOME-ABOUT</h4>
                 </div>
@@ -62,7 +62,7 @@ const About :React.FC= () => {
                 <div className='flex sm:flex sm:justify-center sm:items-center md:flex md:justify-center md:items-center'>
                     <h2 className='text-white font-bold text-[30px] sm:text-[15px]'>786</h2>
                     <span>
-                    <AiOutlinePlus color='#DB683A' /> 
+                    {/* <AiOutlinePlus color='#DB683A' />  */}
                     </span>
                 </div>
                 <div>
