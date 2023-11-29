@@ -1,12 +1,14 @@
-import BLogCover from "../../assets/portrait-adult-male-disinfecting-house_23-2148563573 1.png";
-import CardImage from "../../assets/cardImage1.jpeg";
+import BLogCover from "../assets/portrait-adult-male-disinfecting-house_23-2148563573 1.png";
+import CardImage from "../assets/cardImage1.jpeg";
 import styled from "@emotion/styled";
-import right from "../../assets/teenyicons_right-solid.svg";
-import Left from "../../assets/teenyicons_left-solid.svg";
+import right from "../assets/teenyicons_right-solid.svg";
+import Left from "../assets/teenyicons_left-solid.svg";
 import Footer from "../../Components/Blocks/Footer";
 import Header from "../../Components/Blocks/Header";
-const Date = styled.div``
-const CardContainer=styled.div` 
+
+const Date = styled.div``;
+const CardContainer=styled.div`
+  
 display: flex;
 gap: 2px;
 flex-wrap: wrap;
@@ -15,13 +17,15 @@ flex-direction: row;
 justify-content: center;
 flex-grow:1;
 width: 100%;
+
 `
 export const Card = () => {
   return (
-    <div className="w-[22rem] h-[30rem]  border-2 rounded-lg bg-[#D9D9D9] relative overflow-hidden flex-1">
+    <div className="w-[22rem] h-[30rem]  border-2 mt-3 ml-3  rounded-lg bg-[#D9D9D9] relative overflow-hidden ">
       <img src={CardImage} className="w-full h-38% overflow-hidden " alt="" />
       <Date className="absolute top-[40%] left-5 bg-[#1239AC] h-12 w-14  flex flex-col justify-center items-center text-white">
-        JAN <br /> 25
+        {" "}
+        JAN <br /> 25{" "}
       </Date>
       <div className="w-full flex justify-center items-center   mt-5 gap-7">
         <div className="w-[63px] h-[63px] rounded-full">
@@ -38,7 +42,7 @@ export const Card = () => {
         beatae id nesciunt?........
       </p>
 
-      <button className="mt-5 ml-5 bg-[#1239AC] text-white">Read More</button>
+      <button className="mt-5 ml-5 bg-[#1239AC] text-white rounded-lg">Read More</button>
     </div>
   );
 };
@@ -48,7 +52,7 @@ const Blogpost =
       <>
         <Header />
         <div className="text-gray-500">
-          <div className="w-full h-[20rem] bg-green-500 pt-8 flex">
+          <div className="w-full h-[20rem] pt-8 flex">
             <img
               src={BLogCover}
               className="w-full h-full object-cover relative"
@@ -59,16 +63,18 @@ const Blogpost =
             </p>
           </div>
 
-          <CardContainer>
+          <CardContainer className=" flex gap-5 ">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
 
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+          
+        
           </CardContainer>
           <div className="flex h-44 w-[80%] mx-auto gap-4 m-0  justify-center items-center mt-10">
             {" "}
