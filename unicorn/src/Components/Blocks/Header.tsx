@@ -15,9 +15,9 @@ const Header:React.FC = () => {
         />
       </div>
       <nav className='text-[#1239AC] flex justify-between text-center p-[12px] gap-[30px] sm:hidden md:hidden cursor-pointer'>
-        <nav className=' text-[18px]'> Home</nav>
-        <nav className=' text-[18px]'> About</nav>
-        <Link to="Blog">
+        <Link to={"/"} className=' text-[18px] '> Home</Link>
+        <Link to={"/About"} className=' text-[18px]'> About</Link>
+        <Link to="/Blog">
         <nav className=' text-[18px]'> Blog</nav>
         </Link>
         

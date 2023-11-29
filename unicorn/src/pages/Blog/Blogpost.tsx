@@ -5,6 +5,7 @@ import right from "../../assets/assets/teenyicons_right-solid.svg";
 import Left from "../../assets/assets/teenyicons_left-solid.svg";
 import Footer from "../../Components/Blocks/Footer";
 import Header from "../../Components/Blocks/Header";
+import Timer from "../../Components/Blocks/Timer";
 
 const Date = styled.div``;
 const CardContainer=styled.div`
@@ -50,7 +51,8 @@ const Blogpost =
   () => {
     return (
       <>
-        <Header />
+        <Timer/>
+    <Header/>
         <div className="text-gray-500">
           <div className="w-full h-[20rem] pt-8 flex">
             <img
