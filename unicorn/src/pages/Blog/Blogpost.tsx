@@ -1,8 +1,8 @@
-import BLogCover from "../assets/portrait-adult-male-disinfecting-house_23-2148563573 1.png";
-import CardImage from "../assets/cardImage1.jpeg";
+import BLogCover from "../../assets/assets/portrait-adult-male-disinfecting-house_23-2148563573 1.png";
+import CardImage from "../../assets/assets/cardImage1.jpeg";
 import styled from "@emotion/styled";
-import right from "../assets/teenyicons_right-solid.svg";
-import Left from "../assets/teenyicons_left-solid.svg";
+import right from "../../assets/assets/teenyicons_right-solid.svg";
+import Left from "../../assets/assets/teenyicons_left-solid.svg";
 import Footer from "../../Components/Blocks/Footer";
 import Header from "../../Components/Blocks/Header";
 

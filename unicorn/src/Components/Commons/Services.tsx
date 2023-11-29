@@ -76,8 +76,9 @@
 // export default Services
 
 import React from 'react'
+
 // import svg from "../../assets/assets/images/images__4_-removebg-preview.png"
-// import svg from "../../assets/assets/images/images (2).jpeg"
+import svg from "../../assets/assets/images/images (2).jpeg"
 // import d from "../../assets/assets/images/images__4_-removebg-preview.png"
 
 

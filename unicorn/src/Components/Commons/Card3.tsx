@@ -4,6 +4,8 @@ import Back from "../../assets/assets/images/28-removebg-preview.png"
 import { GiCheckMark } from "react-icons/gi";
 import Bubble from "../../assets/assets/bubble-light.png"
 
+
+
 const Card3 = () => {
   return (
     <div className=' bg-right-bottom bg-no-repeat items-center bg-auto p-10   h-[650px] flex justify-between w-[100%] 

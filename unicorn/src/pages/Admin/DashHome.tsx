@@ -1,7 +1,7 @@
 import {CiHome} from "react-icons/ci"
 import { FaArrowUpLong, FaArrowDownLong } from "react-icons/fa6";
-import manypics from "../assets/manypics-removebg-preview.png"
-import Chart from "../assets/chart.svg"
+import manypics from "../../assets/assets/manypics-removebg-preview.png"
+import Chart from "../../assets/assets/chart.svg"
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 import UserAppointments from "../../Components/Commons/UserAppointments"
 

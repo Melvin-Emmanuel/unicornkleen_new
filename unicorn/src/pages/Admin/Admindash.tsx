@@ -10,14 +10,15 @@ import { CiUser } from "react-icons/ci";
 import { FcExpand } from "react-icons/fc";
 import { SlBookOpen } from "react-icons/sl";
 import { GoDotFill } from "react-icons/go";
-import menu from "../../assets/Menu.svg"
+import menu from "../../assets/assets/Menu.svg"
 import { FaMicroblog } from "react-icons/fa";
 import { IoHome } from "react-icons/io5";
 import { useDispatch, useSelector } from "react-redux"
 import {Link} from "react-router-dom"
 import { changeNav, changeUser, changebooking, showApps, showNotification } from "../../services/Reducers";
 
-import headerpic from "../assets/melvin.jpg"
+import headerpic from "../../assets/assets/melvin.jpg"
+
 
 
 
