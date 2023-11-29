@@ -4,7 +4,8 @@ import Smiling from "../../assets/assets/images/smiling.png"
 const Card1 = () => {
   return (
     <div className=' bg-right bg-contain bg-no-repeat pl-[50px] h-[600px] flex  flex-col
-     sm:ml-[0px] sm:h-[300px] sm:p-4 sm:flex sm:flex-row sm:gap-5 sm:bg-cover sm:bg-center '
+     sm:ml-[0px] sm:h-[300px] sm:p-4 sm:flex sm:flex-row sm:gap-5 sm:bg-cover sm:bg-center
+     md:ml-[0] sm: '
       style={{backgroundImage: `url(${Smiling})`}}                                           
       
      

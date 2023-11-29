@@ -20,7 +20,8 @@ const Index = createBrowserRouter([
             {
                 path: "/Blog",
                 element:<Blogpost/>
-            }
+            },
+           
         ]
     
     
