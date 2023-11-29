@@ -5,9 +5,8 @@ import right from "../../assets/teenyicons_right-solid.svg";
 import Left from "../../assets/teenyicons_left-solid.svg";
 import Footer from "../../Components/Blocks/Footer";
 import Header from "../../Components/Blocks/Header";
-const Date = styled.div``;
-const CardContainer=styled.div`
-  
+const Date = styled.div``
+const CardContainer=styled.div` 
 display: flex;
 gap: 2px;
 flex-wrap: wrap;
@@ -16,15 +15,13 @@ flex-direction: row;
 justify-content: center;
 flex-grow:1;
 width: 100%;
-
 `
 export const Card = () => {
   return (
     <div className="w-[22rem] h-[30rem]  border-2 rounded-lg bg-[#D9D9D9] relative overflow-hidden flex-1">
       <img src={CardImage} className="w-full h-38% overflow-hidden " alt="" />
       <Date className="absolute top-[40%] left-5 bg-[#1239AC] h-12 w-14  flex flex-col justify-center items-center text-white">
-        {" "}
-        JAN <br /> 25{" "}
+        JAN <br /> 25
       </Date>
       <div className="w-full flex justify-center items-center   mt-5 gap-7">
         <div className="w-[63px] h-[63px] rounded-full">
