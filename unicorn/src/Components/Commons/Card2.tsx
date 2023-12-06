@@ -2,6 +2,7 @@
 import Afro from "../../assets/assets/images/afro-woman.jpg"
 import Abso from "../../assets/assets/images/mirror .jpg"
 
+
 const Card2 = () => {
   return (
     <div className='relative   h-[650px] bg-[white] flex items-center 
@@ -59,9 +60,11 @@ const Card2 = () => {
          
           <br  />
           <div className=" flex gap-5 p-2 text-left ">
-                <button className='text-[white] p-[5px] flex justify-center items-center rounded-[7px] h-[55px] w-[170px] bg-[#06278a]
-                      sm:hidden md:hidden
-              '>Contact Us</button>
+
+            
+            <button className='text-[white] p-[5px] flex justify-center items-center rounded-[7px] h-[55px] w-[170px] bg-[#06278a] sm:hidden md:hidden'>Contact Us</button>
+            
+                
               <div className="flex flex-col  h-[55px] text-[grey] w-[170px]  justify-center items-center border-l-2">
                 <p>Get Free Estimate</p>
                 <p className="text-[black] text-left">0901 090 0904</p>
