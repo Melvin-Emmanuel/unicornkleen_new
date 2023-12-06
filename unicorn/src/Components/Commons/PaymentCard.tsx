@@ -27,7 +27,7 @@ const PaymentCard:React.FC = () => {
         sm:flex sm:flex-col sm:items-center sm:h-[1600px] sm:w-[100%] sm:gap-5
         md:flex md:flex-col md:items-center md:h-[1400px] md:w-[100%] md:gap-3
         '>
-            <div className='h-[500px] w-[350px] text-[#474545] items-center flex flex-col  text-center shadow-xl  p-5
+            <div className='h-[500px] w-[350px] text-[#474545] items-center flex flex-col rounded-md  text-center shadow-xl  p-5
             sm:h-[550px] sm:w-[300px] sm:p-5 md:h-[500px] md:w-[300px] md:p-5 lg:w-[250px]
             
             '>
@@ -61,7 +61,7 @@ const PaymentCard:React.FC = () => {
             </div>
 
 
-            <div className='text-[white] h-[500px] w-[350px] text-center items-center flex flex-col  shadow-md bg-[#1239AC] p-5
+            <div className='text-[white] h-[500px] w-[350px] text-center items-center rounded-md flex flex-col  shadow-md bg-[#1239AC] p-5
              sm:h-[550px] sm:w-[300px] sm:p-5   md:h-[500px] md:w-[300px] md:p-5  lg:w-[250px]
             '>
             <h3 className='font-bold'>Residential</h3>
@@ -92,7 +92,7 @@ const PaymentCard:React.FC = () => {
                 sm:w-[200px] sm:rounded-[15px] md:w-[170px] md:rounded-[15px]'>BOOK NOW</button>
             </div>
             <div className='h-[500px] w-[350px] text-[#474545] items-center flex flex-col  text-center shadow-xl  p-5
-            sm:h-[550px] sm:w-[300px] sm:p-5 md:h-[500px] md:w-[300px] md:p-5 lg:w-[250px]
+            sm:h-[550px] sm:w-[300px] sm:p-5 md:h-[500px] md:w-[300px] md:p-5 rounded-md lg:w-[250px]
             
             '>
                <h3 className='font-bold'>Residential</h3>

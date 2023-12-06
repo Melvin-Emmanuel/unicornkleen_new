@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
- import pic from "../../assets/Cleaning tools.jpg"
+ import pic from "../../assets/assets/Cleaning tools.jpg"
 import { useNavigate } from 'react-router-dom';
  import {loginUser} from  "../../Components/Utils/ApiCalls"
 import { Link } from 'react-router-dom';

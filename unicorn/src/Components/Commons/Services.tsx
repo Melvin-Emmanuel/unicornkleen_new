@@ -76,7 +76,11 @@
 // export default Services
 
 import React from 'react'
-import svg from "../../assets/assets/images/images__4_-removebg-preview.png"
+
+// import svg from "../../assets/assets/images/images__4_-removebg-preview.png"
+import svg from "../../assets/assets/images/images (2).jpeg"
+// import d from "../../assets/assets/images/images__4_-removebg-preview.png"
+
 
 const Services:React.FC = () => {
   return (
@@ -102,7 +106,7 @@ const Services:React.FC = () => {
           sm:w-[280px] sm:items-center sm:h-[320px]
           '>
             
-            <img className='h-[70px]  w-[70px] ' src={svg} alt="" />
+            <img className='h-[70px]  w-[70px] ' src="" alt="" />
             
             
             

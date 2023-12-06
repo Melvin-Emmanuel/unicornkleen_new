@@ -1,5 +1,5 @@
 import React from 'react'
-import Unicorn from "../../assets/assets/IMG-20231011-WA0007-1.jpg"
+import Unicorn from "../../assets/images/IMG-20231011-WA0007-1.jpg"
 import {BsFacebook} from "react-icons/bs"
 import {BsInstagram} from "react-icons/bs"
 import {BiLogoGmail} from "react-icons/bi"

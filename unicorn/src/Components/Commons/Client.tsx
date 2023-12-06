@@ -1,4 +1,5 @@
-import Woman from "../../assets/assets/images/images (2).jpeg"
+import Woman from "../../assets/assets/images/IMG-20231011-WA0007-1.jpg"
+
 
 const Client = () => {
   return (

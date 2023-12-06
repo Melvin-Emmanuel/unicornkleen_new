@@ -1,20 +1,26 @@
 import React from 'react'
-import pic from "../../assets/full-shot-man-servant-vacuuming-floor.jpg"
+import pic from "../../assets/assets/full-shot-man-servant-vacuuming-floor.jpg"
+
 import {AiOutlineHome, AiOutlinePlus} from "react-icons/ai"
-import pics from "../../assets/afro-woman-holding-bucket-with-cleaning-items_58466-11246.jpg"
- import pic1 from "../../assets/cheerful-dark-skinned-housewife-holds-chemical-detergent-mop-looks-gladfully.jpg"
- import pic2 from "../../assets/afro-woman-holding-bucket-with-cleaning-items_58466-11246.jpg"
- import pic3 from "../../assets/happy-african-american-volunteer-posing-city-park.jpg"
- import pic4 from "../../assets/IMG-20231022-WA0001.jpg"
- import pic5 from "../../assets/IMG-20231022-WA0000.jpg"
- import pic6 from "../../assets/IMG-20231022-WA0002.jpg"
- import pic7 from "../../assets/IMG-20231022-WA0003.jpg"
+import pics from "../../assets/assets/afro-woman-holding-bucket-with-cleaning-items_58466-11246.jpg"
+ import pic1 from "../../assets/assets/cheerful-dark-skinned-housewife-holds-chemical-detergent-mop-looks-gladfully.jpg"
+ import pic2 from "../../assets/assets/afro-woman-holding-bucket-with-cleaning-items_58466-11246.jpg"
+ import pic3 from "../../assets/assets/happy-african-american-volunteer-posing-city-park.jpg"
+ import pic4 from "../../assets/assets/IMG-20231022-WA0001.jpg"
+ import pic5 from "../../assets/assets/IMG-20231022-WA0000.jpg"
+ import pic6 from "../../assets/assets/IMG-20231022-WA0002.jpg"
+ import pic7 from "../../assets/assets/IMG-20231022-WA0003.jpg"
  import { Link } from 'react-router-dom'
+import Timer from '../../Components/Blocks/Timer'
+import Header from '../../Components/Blocks/Header'
+import Footer from "../..//Components/Blocks/Footer"
  
 
 const About :React.FC= () => {
   return (
-    <div>
+      <div>
+          <Timer />
+          <Header/>
         <div className='w-full min-h-[70vh] bg-no-repeat bg-[#1239ac] bg-cover py-25 bg-blend-exclusion sm:w-[100%] sm:mx-auto md:w-[100%] ' style={{backgroundImage: `url(${pic})`}}>
 
             <div className='flex flex-col items-center justify-center pt-[70px] sm:mx-auto md:px-auto'>
@@ -185,7 +191,7 @@ const About :React.FC= () => {
             </div>
 
            
-      
+  <Footer/>
     </div>
   )
 }
