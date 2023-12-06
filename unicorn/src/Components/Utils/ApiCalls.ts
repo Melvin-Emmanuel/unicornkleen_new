@@ -1,4 +1,5 @@
 import Instance from "./AxiosConfig";
+import ShowToast from "../Commons/ShowToast/ShowToast";
 
 interface iUser {
   FullName: string;
@@ -24,11 +25,15 @@ interface loginAdmin {
 
 export const regAdmin = async (data: Admin) => {
   try {
-    const response = await Instance.post("/Admin-reg", data)
-    console.log(response)
+    const response = await Instance.post("/Admin-reg", data);
+    if (response.status === 201) {
+        ShowToast(true, `${response.data.message}`)
+    }
+    // console.log(response)
     return response
   }catch (error) {
     console.log(error)
+    ShowToast(false, "an error occured")
   }
 }
 
@@ -36,29 +41,41 @@ export const regAdmin = async (data: Admin) => {
 export const createUser = async (data: iUser) => {
   try {
     const response = await Instance.post("/reg-user", data);
-    console.log(response);
+    if (response.status === 201) {
+        ShowToast(true, `${response.data.message}`)
+    }
+    // console.log(response);
     return response;
   } catch (error) {
     console.log(error);
+    ShowToast(false, "an error occured")
   }
 };
 
 export const loginUser = async (data: loginUser) => {
   try {
     const response = await Instance.post("/login-User", data);
-    console.log(response);
+    if (response.status === 200 || 201) {
+        ShowToast(true, `${response.data.message}`)
+    }
+    // console.log(response);
     return response;
   } catch (error) {
     console.log(error);
+    ShowToast(false, "an error occured")
   }
 };
 
 export const LoginAdmin = async (data: loginAdmin) => {
   try {
     const response = await Instance.post("/login-User", data);
-    console.log(response);
+    if (response.status === 201 || 200) {
+        ShowToast(true, `${response.data.message}`)
+    }
+    // console.log(response);
     return response;
   } catch (error) {
     console.log(error);
+    ShowToast(false, "an error occured")
   }
 };
