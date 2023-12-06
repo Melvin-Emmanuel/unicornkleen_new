@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from "../../assets/assets/images/IMG-20231011-WA0007-1.jpg"
+import logo from "../../assets/IMG-20231022-WA0001.jpg"
 import {GiHamburgerMenu} from "react-icons/gi"
 import { Link } from 'react-router-dom'
 
