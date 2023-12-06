@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logo from "../../assets/IMG-20231022-WA0001.jpg"
+import logo from "../../assets/images/IMG-20231011-WA0007-1.jpg"
 import {GiHamburgerMenu} from "react-icons/gi"
 import { Link } from 'react-router-dom'
 
@@ -31,12 +31,12 @@ const Header:React.FC = () => {
       </div>
 
 <div className='flex justify-between gap-5 items-center '>
-  <Link to="login">
+  <Link to="signin">
   <button className='text-[white] p-[5px] flex flex-col items-center text-center rounded-[7px] h-[40px] w-[100px] bg-[#1239AC] md:hidden sm:hidden'>Login</button>
 
   </Link>
 
-  <Link to="signup">
+  <Link to="Signup">
   <button className='text-[white] p-[5px] flex flex-col items-center text-center rounded-[7px] h-[40px] w-[100px] bg-[#1239AC] md:hidden sm:hidden'>Sign Up</button>
 
   </Link>
