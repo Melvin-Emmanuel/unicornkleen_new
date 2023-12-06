@@ -21,7 +21,7 @@ width: 100%;
 `
 export const Card = () => {
   return (
-    <div className="w-[22rem] h-[30rem]  border-2 rounded-lg bg-[#D9D9D9] relative overflow-hidden flex-1">
+    <div className="w-[22rem] h-[30rem]  border-2 mt-3 ml-3  rounded-lg bg-[#D9D9D9] relative overflow-hidden ">
       <img src={CardImage} className="w-full h-38% overflow-hidden " alt="" />
       <Date className="absolute top-[40%] left-5 bg-[#1239AC] h-12 w-14  flex flex-col justify-center items-center text-white">
         {" "}
@@ -42,7 +42,7 @@ export const Card = () => {
         beatae id nesciunt?........
       </p>
 
-      <button className="mt-5 ml-5 bg-[#1239AC] text-white">Read More</button>
+      <button className="mt-5 ml-5 bg-[#1239AC] text-white rounded-lg">Read More</button>
     </div>
   );
 };
@@ -63,16 +63,18 @@ const Blogpost =
             </p>
           </div>
 
-          <CardContainer>
+          <CardContainer className=" flex gap-5 ">
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
             <Card />
 
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+          
+        
           </CardContainer>
           <div className="flex h-44 w-[80%] mx-auto gap-4 m-0  justify-center items-center mt-10">
             {" "}
