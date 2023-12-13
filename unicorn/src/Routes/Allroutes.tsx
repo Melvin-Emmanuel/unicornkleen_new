@@ -13,6 +13,7 @@ import Admindash from "../pages/Admin/Admindash"
 import AddBlog from "../pages/Admin/AddBlog";
 
 import Logout from "../pages/Admin/Logout"
+import Contact from "../pages/Contact/Contact";
 
 const Index = createBrowserRouter([
   //
@@ -57,6 +58,10 @@ const Index = createBrowserRouter([
   {
     path: "/Logout",
     element: <Logout />,
+  },
+  {
+    path: "/contact",
+    element: <Contact />,
   },
 ]);
 
