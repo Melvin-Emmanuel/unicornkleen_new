@@ -155,7 +155,7 @@ const About :React.FC= () => {
                     <h2 className='text-[30px] font-bold sm:text-[15px] md:text-[20px]'>We have the best team when it <br /> comes to planning and organizing.</h2>
                 </div>
             </div>
-            <div className='flex items-center justify-center gap-12 sm:mx-auto sm:flex-wrap sm:pt-[20px] sm:gap-5 md:flex-wrap md:flex md:flex-col md:gap-10 md:pt-10'>
+            <div className='flex items-center justify-center gap-12 p-5 sm:mx-auto sm:flex-wrap sm:pt-[20px] sm:gap-5 md:flex-wrap md:flex md:flex-col md:gap-10 md:pt-10'>
                 <div>
                     <img
                     className='h-[300px] w-[300px] object-cover overflow-hidden bg-[black] sm:h-[200px] sm:w-[200px] md:h-[400px] md:w-[400px]'
