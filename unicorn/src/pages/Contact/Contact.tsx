@@ -2,8 +2,34 @@
 import BLogCover from "../../assets/assets/portrait-adult-male-disinfecting-house_23-2148563573 1.png"
 import { FaLocationDot } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
+import { contactus } from "../../../utils/AxiosCalls"
+import {useState} from "react"
 
 const Contact = () => {
+  const [formData, setFormdata] = useState({
+    Name: "",
+    Email: "",
+    PhoneNumber: "",
+    Text:""
+  })
+    const onChangeForm = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const { name, value } = e.target;
+
+      setFormdata((prev) => ({
+        ...prev,
+        [name]: value,
+      }));
+  }
+  
+  const SendData = async () => {
+    try {
+      const res = await contactus(formData)
+      console.log(res)
+    } catch (error) {
+      console.log(error)
+    }
+  }
+  
   return (
     <div className='text-black'>
       <div className="w-full h-[20rem] pt-8 flex">
@@ -51,7 +77,10 @@ const Contact = () => {
 
 
         </div>
-        <div className='h-[600px] w-[500px] flex flex-col p-5 gap-5  shadow-md'>
+        <form onSubmit={(e) => {
+          e.preventDefault()
+          SendData()
+        }} className='h-[600px] w-[500px] flex flex-col p-5 gap-5  shadow-md'>
             <div className="h-[100px] w-[450px] flex flex-col">
                 <h2 className="text-[#1239AC] text-[20px] font-semibold">Let's Talk</h2>
                 <h3 className="text-[black] text-[16px]">It's all about the humans behind a brand and those experiencing it, 
@@ -60,7 +89,7 @@ const Contact = () => {
             <div className="">
             <input
                  
-                 name='FullName'
+                 name='Name' onChange={onChangeForm}
                 className='h-[60px] w-[460px] p-3 rounded-[10px] border-black border-2 border-solid outline-none sm:w-[200px] sm:h-[30px] sm:p-2 md:w-[600px] md:rounded-none'
                 placeholder='FulName'
                 />
@@ -68,14 +97,14 @@ const Contact = () => {
             <div className="flex gap-5">
             <input
                  
-                 name='Email'
+                 name='PhoneNumber' onChange={onChangeForm}
                 className='h-[40px] w-[250px] p-3 rounded-[10px] border-black border-2 border-solid outline-none sm:w-[200px] sm:h-[30px] sm:p-2 md:w-[600px] md:rounded-none'
-                placeholder='Email'
+                placeholder='Phone Number'
                 />
 
                 <input
                  
-                 name='Phone Number'
+                 name='Email' onChange={onChangeForm}
                 className='h-[40px] w-[250px] p-3 rounded-[10px] border-black border-2 border-solid outline-none sm:w-[200px] sm:h-[30px] sm:p-2 md:w-[600px] md:rounded-none'
                 placeholder='Email'
                 /> 
@@ -83,7 +112,7 @@ const Contact = () => {
             <div>
                 <input
                     
-                    name='Email'
+                    name='Text' onChange={onChangeForm}
                     className='h-[220px] w-[460px] rounded-[5px] flex-col text-start border-black border-2 border-solid outline-none sm:w-[200px] sm:h-[30px] sm:p-2 md:w-[600px] md:rounded-none'
                     placeholder='Tell us about your project'
                 />
@@ -97,7 +126,7 @@ const Contact = () => {
             </div>
            
 
-        </div>
+        </form>
            
               
         </div>

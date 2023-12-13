@@ -52,6 +52,13 @@ interface loginUser {
   Password: string;
   UserName:string
 }
+interface Contactus {
+  Name: string;
+  Email: string
+  PhoneNumber: string
+  Text:string
+
+}
 
 export const createUser = async (data: iUser) => {
   try {
@@ -72,5 +79,15 @@ export const loginUser = async (data: loginUser) => {
     console.log(error);
   }
 };
+
+export const contactus = async (data: Contactus)=>{
+  try {
+    const response = await Instance.post("/contact-us", data);
+  return response
+  } catch (error) {
+    console.log(error)
+    
+  }
+}
 
 
